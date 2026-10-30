@@ -1,0 +1,21 @@
+title: 難経（王翰林集註）原文・注・現代語訳
+description: 『王翰林集註黄帝八十一難経』（四部叢刊本）の原文（句読点つき），校異，集註と滑寿『難経本義』の注，日本語訳と解説
+lang: ja
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - LICENSE
